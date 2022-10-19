@@ -3,7 +3,7 @@ XGBoost regressor model tuned using hyperopt optimization (see: [xgboost_regress
 
 NB: due to the random behavior of hyperopt optimization, it is likely that different xgb hyperparameters will be created each time this script is run.
 
-# Results on test data
+# Results on test data before fitting on entire training set
 1) score = 'mape'
    - Error initial xgb model on test data:  16.416 %
    - Error  xgb model after hyperopt on test data : 15.489 %
