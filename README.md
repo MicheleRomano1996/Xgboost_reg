@@ -1,7 +1,8 @@
 # Xgboost_reg
 XGBoost regressor model tuned using hyperopt optimization (see: [xgboost_regression_hyperopt.py](https://github.com/MicheleRomano1996/Xgboost_reg---hyperopt-exercise/blob/main/xgboost_regression_hyperopt.py)).
 
-NB: due to the random behavior of hyperopt optimization, a different xgb_hyperopt is likely to be created each time this script is run.
+NB: due to the random behavior of hyperopt optimization, it is likely that different xgb hyperparameters will be created each time this script is run.
+
 # Results on test data
 1) score = 'mape'
    - Error initial xgb model on test data:  16.416 %
